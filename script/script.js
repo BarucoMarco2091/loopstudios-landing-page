@@ -12,6 +12,10 @@ const cardData = [
         description: "SOCCER TEAM VR",
     },
     {
+        image: "assets/images/desktop/image-grid.jpg",
+        description: "THE GRID",
+    },
+    {
         image: "assets/images/desktop/image-from-above.jpg",
         description: "FROM UP ABOVE VR",
     },
@@ -38,8 +42,8 @@ function loadCards() {
         newCard.className = 'new-card';
         newCard.innerHTML =
             `
-            <img src="${item.image}" alt="card-img">
-            <p>${item.description}</p>
+            <img class="card-img" src="${item.image}" alt="card-img">
+            <p class="card-paragraph">${item.description}</p>
             `
         cardGrid.appendChild(newCardGrid);
         newCardGrid.appendChild(newCard);

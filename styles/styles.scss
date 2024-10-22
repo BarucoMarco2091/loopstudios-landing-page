@@ -15,4 +15,163 @@ $veryDarkGray: hsl(0, 0%, 41%);
 
 header {
     background-image: url("/assets/images/desktop/image-hero.jpg");
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 5dvh;
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .nav-link {
+            color: $white;
+            font-family: 'Josefin Sans', serif, sans-serif;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .div-text {
+            border: 1px solid $darkGray;
+            padding-top: 5dvh;
+            margin-top: 10dvh;
+            margin-bottom: 15dvh;
+            width: 65dvh;
+            height: 30dvh;
+            position: relative;
+            left: 10dvh;
+
+            .first-text {
+                font-family: 'Alata', sans-serif;
+                font-weight: 100;
+                color: $white;
+                margin-left: 3dvh;
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
+
+main {
+    
+    #container {
+        margin: 10dvh;
+        display: flex;
+        flex-wrap: wrap;
+
+        .picture {
+            position: absolute;
+
+            .guy-photo {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .text {
+            background-color: $white;
+            position: relative;
+            padding: 8dvh;
+            left: 90dvh;
+            top: 35dvh;
+            height: 50dvh;
+
+            .first-title {
+                font-family: 'Alata', serif, sans-serif;
+                color: $black;
+                margin-bottom: 4dvh;
+            }
+
+            .second-text {
+                font-family: 'Alata', serif, sans-serif;
+                color: $darkGray;
+            }
+        }
+    }
+
+    #main-content {
+        position: relative;
+        margin-top: 50dvh;
+        margin-left: 10dvh;
+        display: flex;
+    
+        .secondary-title {
+            font-size: 3rem;
+            font-family: 'Alata', sans-serif, serif;
+            font-weight: 100;
+            color: $black;
+        }
+
+        .btn {
+            position: relative;
+            left: 120dvh;
+            background-color: $black;
+            color: $white;
+            width: 20dvh;
+            height: 6dvh;
+            font-family: 'Josefin Sans', sans-serif, serif;
+            cursor: pointer;
+        }
+    }
+
+    .card-grid, .new-card-grid {
+        margin-top: 5dvh;
+        margin-left: 5dvh;
+        margin-bottom: 7dvh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        .card-img {
+            border-radius: 1dvh;
+        }
+
+        .card-paragraph {
+            position: relative;
+            bottom: 7dvh;
+            text-align: center;
+            color: $white;
+            font-size: 1.25rem;
+            font-family: 'Josefin Sans', sans-serif, serif;
+        }
+    }
+}
+
+footer {
+    background-color: $black;
+    padding-bottom: 3dvh;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4dvh;
+        padding-bottom: 4dvh;
+
+        i {
+            color: $white;
+            cursor: pointer;
+            font-size: 3.5dvh;
+        }
+    }
+
+    .flex-footer-container {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+
+        .footer-nav-link {
+            color: $white;
+            font-family: 'Alata', serif, sans-serif;
+            cursor: pointer;
+        }
+    }
 }

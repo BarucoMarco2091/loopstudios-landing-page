@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Loopstudios Landing Page</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <img src="assets/logo.svg" alt="logo">
             <ul class="flex-container">
+                <img class="logo" src="assets/logo.svg" alt="logo">
                 <li>
                     <a class="nav-link" href="#">About</a>
                 </li>
@@ -29,32 +33,58 @@
                     <a class="nav-link" href="#">Support</a>
                 </li>
             </ul>
-            <h1>IMMERSIVE<br>EXPERIENCES<br>THAT DELIVER</h1>
+            <div class="div-text">
+                <p class="first-text">IMMERSIVE<br>EXPERIENCES<br>THAT DELIVER</p>
+            </div>
         </nav>
     </header>
     <main>
         <div id="container">
             <div class="picture">
-                <img src="assets/images/desktop/image-interactive.jpg" alt="interactive">
+                <img class="guy-photo" src="assets/images/desktop/image-interactive.jpg" alt="interactive">
             </div>
             <div class="text">
-                <h2>THE LEADER IN<br>INTERACTIVE VR</h2>
-                <p>Founded in 2011, Loopstudios has been producing world-class<br>virtual reality projects for some of the best companies around the<br>globe. Our award-winning creations have transformed<br> businesses through digital experiences that bind to their brand</p>
+                <h1 class="first-title">THE LEADER IN<br>INTERACTIVE VR</h1>
+                <p class="second-text">Founded in 2011, Loopstudios has been producing world-class<br>virtual reality
+                    projects for some of the best companies around the<br>globe. Our award-winning creations have
+                    transformed<br> businesses through digital experiences that bind to their brand.</p>
             </div>
         </div>
         <div id="main-content">
-            <div class="secondary-title">
-                <h2>OUR CREATIONS</h2>
-            </div>
-            <div class="btn">
-                <button>SEE ALL</button>
-            </div>
+            <h2 class="secondary-title">OUR CREATIONS</h2>
+            <button class="btn">SEE ALL</button>
         </div>
         <div class="card-grid">
-            
+
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-container">
+            <img src="assets/logo.svg" alt="">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <ul class="flex-footer-container">
+            <li>
+                <a class="footer-nav-link" href="#">About</a>
+            </li>
+            <li>
+                <a class="footer-nav-link" href="#">Careers</a>
+            </li>
+            <li>
+                <a class="footer-nav-link" href="#">Events</a>
+            </li>
+            <li>
+                <a class="footer-nav-link" href="#">Products</a>
+            </li>
+            <li>
+                <a class="footer-nav-link" href="#">Support</a>
+            </li>
+        </ul>
+    </footer>
     <script src="script/script.js"></script>
 </body>
+
 </html>
